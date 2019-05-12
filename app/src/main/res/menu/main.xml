@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/top_text" android:icon="@drawable/ic_home_black_24dp"/>
+    <item android:title="@string/lunch" android:id="@+id/lunch">
+        <menu
+        >
+            <item android:title="@string/lunch01" android:id="@+id/lunch01"/>
+            <item android:title="@string/lunch02" android:id="@+id/lunch02"/>
+        </menu>
+    </item>
+    <item android:title="@string/dinner" android:id="@+id/dinner">
+        <menu
+        >
+            <item android:title="@string/dinner01" android:id="@+id/dinner01"/>
+            <item android:title="@string/dinner02" android:id="@+id/dinner02"/>
+        </menu>
+    </item>
+</menu>
